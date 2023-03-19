@@ -1,0 +1,132 @@
+
+    Body{
+    background-color: #E4DCCF;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    background-color: #ffffff;
+    padding: 10px;
+    gap: 20px;
+    /* position: fixed;
+    width: 100%;
+} */
+.searchbar{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 8px 6px;
+    border: 1px solid rgb(102, 100, 100);
+    
+}
+.searchbar > input{
+    border: none;
+    outline: none;
+}
+.searchbar > svg{
+    color: #4D4D4D;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.logo > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+nav > .item a {
+    text-decoration: none;
+    color: #3f3f3f;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+nav > .item a:hover{
+ color: #3E54AC;
+ transition: 0.4s;
+}
+
+.item > svg{
+    text-decoration: none;
+  color: #3f3f3f;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.profile{
+    display: flex;
+      align-items: center;
+      gap: 15px;
+      justify-content: flex-end;
+      text-decoration: none;
+  }
+  a {
+    color: #3f3f3f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .profile a:hover{
+    color: #3E54AC;
+ transition: 0.4s;
+  }
+
+.profile > .pic{
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+.pic > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.page > img{
+    width: 1350px;
+    height: 700px;
+
+}
+/* main{
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+
+
+#connection h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+#connection .connection > img{
+    display: flex;
+width: 1350px;
+}
+#message h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#message .x-message > img{
+    display: flex;
+    width: 1350px;
+} */
